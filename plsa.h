@@ -40,8 +40,6 @@ class PLSA {
         int doc_word[D_MAX];
         vector<string> index_to_doc;
         int cooc[D_MAX][W_MAX];
-        scw_worddict_t *pwdict;
-        scw_out_t *pout;
         string dict_path;
     public:
         PLSA(){}
